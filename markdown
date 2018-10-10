@@ -6,9 +6,4 @@ Markdown is often used to format readme files,
 for writing messages in online discussion forums,
 and to create rich text using a plain text editor.
 
-# Not good part
-As the initial description of Markdown contained ambiguities and unanswered questions,
-many implementations and extensions of Markdown appeared over the years to answer these issues.
-
 # Knowledge
-
