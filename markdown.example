@@ -1,0 +1,32 @@
+# Heading
+
+## Sub-heading
+
+Paragraphs are separated by a blank line.
+
+Two spaces at the end of a line  produce a line break.
+
+Text attributes _italic_, **bold**, `monospace`.
+What about ***three asterisk*** look like? ****four****?
+
+Horizontal rule:
+
+---
+***
+
+Bullet list:
+
+*apple
+*orange
+*pear
+
+Number list:
+1.wash
+2.rinse
+3.repeat
+
+[This is a link line to github.com](http://github.com)
+
+>Markdown uses email-style
+>>characters for block-quoting.
+>>>the third inner block-quote.
