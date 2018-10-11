@@ -78,3 +78,7 @@ example [Markdown](http://zh.wikipedia.com/wiki/Markdown)
 
 all the five above is available
 
+# editor suggestion
+
+Mou
+MacDown
