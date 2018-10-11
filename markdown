@@ -1,6 +1,6 @@
 What is markdown
 
-# from wikipedia.org
+## from wikipedia.org
 
 Markdown is a lightweight markup language with plain text formatting syntax.
 It is designed so that it can be converted to HTML and many other formats using a tool by the same name.
@@ -16,7 +16,7 @@ plain text format, then convert it to structurally valid XHTML(or HTML).
 
 The overriding design goal for Markdown's formatting syntax is to make it as readable as possible.
 
-# Installation and requirements.
+## installation and requirements
 Markdown requires Perl 5.6.0 or later.
 Welcome to the 21st Century.
 Markdown also requires the standard Perl library module
@@ -24,14 +24,14 @@ Digest::MD5, which is probably already install on your server.
 
 ### syntax ###
 
-# pictures
-![foo](http://path.to/your/nice.jpg)
+## pictures
+![foo](http://path.to/your/nice.jpg "title")
 
-# blank row (br)
+## blank row (br)
 It's automatic work. Force to generate a new line,
 you just need type two blank mark at the end one line. 
 
-# emphasis and overemphasis
+## emphasis and overemphasis
 *words or sentences to be emphasised*
 **words or sentences to be overemphasised**
 or
@@ -43,7 +43,9 @@ __words or sentences to be overemphasised__
 # this method will let markdown keep all the blank characters
 # normally, markdown will delete all the blank characters
 
-# title
+# double tab represent a single line?
+
+## title
 # This is "<h1>"
 #### This is "<h4>"
 or
@@ -52,7 +54,7 @@ h1 title
 h2 title
 --------
 
-# reference
+## reference
 
 > This all paragraph will be regard as block quote element.
 And so is this line.
@@ -63,12 +65,12 @@ This is still the first block.
 >> This is the second block
 This is the second line of the second block.
 
-# href
+## href
 
 [word](src)
 example [Markdown](http://zh.wikipedia.com/wiki/Markdown)
 
-# add a horizontal line
+## add a horizontal line
 
 * * *
 ***
@@ -76,9 +78,40 @@ example [Markdown](http://zh.wikipedia.com/wiki/Markdown)
 - - -
 -----------
 
-all the five above is available
+# all the five above is available
+# here comes the difference:
+# use 3 of them to show the broken line (dashed)
 
-# editor suggestion
+## anchor point
+# each heading is an anchor point by default
+[Top](#readme)
 
+## code block
+# how to creating and highlighting code blocks?
+
+# creating code block
+```
+import requests
+content = requests.get("http://www.github.com").content
+```
+# highlighting code block
+```python
+import requests
+content = requests.get("http://www.github.com").content
+```
+
+## emoji
+
+:blush:
+:kissing:
+:laughing:
+
+## suggestion
+
+# editor
 Mou
 MacDown
+
+# website
+https://www.appinn.com/markdown/
+
