@@ -2,7 +2,7 @@
 # of markdown language.
 # Otherwise you should change your file format to '.txt' so that
 # it can normally display on the web page.
-This is a normally github page demo project for study purpose.
+This is a normal github page demo project for study purpose.
 Jekyll
 Markdown
 Ruby (gem bundle Gemfile)
