@@ -1,0 +1,3 @@
+add the following to ~/.bash_profile to fix ruby version
+cannot change
+eval "$(rbenv init -)"
