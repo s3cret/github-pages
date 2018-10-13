@@ -1,2 +1,8 @@
 ## ignore sass cache
 .sass-cache
+
+## vim protective file
+*.swp
+
+## _site directory
+_site/
