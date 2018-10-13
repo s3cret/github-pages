@@ -1,6 +1,7 @@
 # README
 This is a normal github page demo project only for study purpose.
 ***
+`The repository's name should be 'username.github.io'.`
 #### Points:
 
 * Jekyll
