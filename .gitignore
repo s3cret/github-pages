@@ -6,3 +6,5 @@
 
 ## _site directory
 _site/
+
+.DS_*
